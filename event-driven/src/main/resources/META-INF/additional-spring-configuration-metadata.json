@@ -1,0 +1,19 @@
+{
+  "properties": [
+    {
+      "name": "topic.name.belt",
+      "type": "java.lang.String",
+      "description": "Kafka topic for Belt Controller/Service."
+    },
+    {
+      "name": "topic.name.cross-belt",
+      "type": "java.lang.String",
+      "description": "Kafka topic for Cross Belt Controller/Service."
+    },
+    {
+      "name": "topic.name.report",
+      "type": "java.lang.String",
+      "description": "Kafka topic for Report Controller/Service."
+    }
+  ]
+}

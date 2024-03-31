@@ -1,0 +1,9 @@
+spring:
+  kafka:
+    bootstrap-servers: localhost:9092
+topic:
+  name:
+    topic-belt: topic-belt
+    topic-cross-belt: topic-cross-belt
+    topic-report: topic-report
+  groupId: event
