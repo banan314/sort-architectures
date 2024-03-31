@@ -1,4 +1,4 @@
-package com.example.sort_architectures.distributed.event_driven.controllers.core;
+package com.example.sort_architectures.distributed.event_driven.controllers;
 
 import com.example.sort_architectures.distributed.event_driven.entities.BeltItem;
 import com.example.sort_architectures.distributed.event_driven.messages.Messages;

@@ -1,4 +1,4 @@
-package com.example.sort_architectures.distributed.event_driven.controllers.core;
+package com.example.sort_architectures.distributed.event_driven.controllers;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;
