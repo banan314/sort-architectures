@@ -1,0 +1,52 @@
+services:
+  belt-microservice:
+    build: belt-microservices
+    container_name: belt-microservice
+    restart: always
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://db-belt:5432/belt_microservices
+    ports:
+      - "8080:8080"
+    depends_on:
+      - db-belt
+  crossbelt-microservice:
+    build: crossbelt-microservices
+    container_name: crossbelt-microservice
+    restart: always
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://db-crossbelt:5432/crossbelt_microservices
+      - BELT_URL=http://belt-microservice:8080
+    ports:
+      - "8082:8082"
+    depends_on:
+      - db-crossbelt
+      - belt-microservice
+  report-microservice:
+    build: report-microservices
+    container_name: report-microservice
+    restart: always
+    ports:
+      - "8083:8083"
+  db-belt:
+    image: postgres
+    container_name: db-belt
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=password
+      - POSTGRES_DB=belt_microservices
+      - POSTGRES_HOST_AUTH_METHOD=trust
+      - PGDATA=/var/lib/postgresql/data/belt/
+    ports:
+      - "5000:5432"
+    restart: always
+  db-crossbelt:
+    image: postgres
+    container_name: db-crossbelt
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=password
+      - POSTGRES_DB=crossbelt_microservices
+      - POSTGRES_HOST_AUTH_METHOD=trust
+      - PGDATA=/var/lib/postgresql/data/crossbelt/
+    ports:
+      - "5001:5432"

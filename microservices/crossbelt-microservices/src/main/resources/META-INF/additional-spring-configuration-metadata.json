@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "belt-service-url",
+      "type": "java.lang.String",
+      "description": "URL for Belt Service base endpoint."
+  }
+] }

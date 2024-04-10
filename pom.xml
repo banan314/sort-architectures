@@ -20,6 +20,9 @@
         <module>event-driven</module>
         <module>service-based/belt-service-based</module>
         <module>service-based/report-service-based</module>
+        <module>microservices/belt-microservices</module>
+        <module>microservices/crossbelt-microservices</module>
+        <module>microservices/report-microservices</module>
     </modules>
     <properties>
         <java.version>17</java.version>

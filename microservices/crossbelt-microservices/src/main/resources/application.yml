@@ -1,0 +1,9 @@
+server:
+  port: 8082
+belt-service-url: ${BELT_URL=http://localhost:8080}
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/crossbelt_microservices
+    username: postgres
+    password: password
