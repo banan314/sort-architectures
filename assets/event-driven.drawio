@@ -1,0 +1,44 @@
+<mxfile host="Electron" modified="2024-04-11T00:12:32.115Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.1.0 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="o6IkWMT54pjT0tw3gU_u" version="24.1.0" type="device">
+  <diagram name="Page-1" id="opSYaH2J1gWdcnBwjpQx">
+    <mxGraphModel dx="1195" dy="678" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QX6qnde6JWg4k-6KLHOT-3" value="&amp;lt;&amp;lt;belt&amp;gt;&amp;gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;jumpStyle=none;dashed=1;" parent="1" source="QX6qnde6JWg4k-6KLHOT-2" target="QX6qnde6JWg4k-6KLHOT-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QX6qnde6JWg4k-6KLHOT-1" value="Belt&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;Service&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="70" y="100" width="160" height="150.01" as="geometry" />
+        </mxCell>
+        <mxCell id="ZtgmJ8ed2L3JojrhqnTy-2" value="&amp;lt;&amp;lt;report&amp;gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="QX6qnde6JWg4k-6KLHOT-2" target="ZtgmJ8ed2L3JojrhqnTy-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QX6qnde6JWg4k-6KLHOT-2" value="Crossbelt Service" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" parent="1" vertex="1">
+          <mxGeometry x="360" y="100" width="160" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="ZtgmJ8ed2L3JojrhqnTy-1" value="Report Service" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="660" y="100" width="140" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="ZtgmJ8ed2L3JojrhqnTy-37" value="belt event" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="140" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZtgmJ8ed2L3JojrhqnTy-38" value="&amp;lt;&amp;lt;report&amp;gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.548;entryY=0.991;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="QX6qnde6JWg4k-6KLHOT-1" target="ZtgmJ8ed2L3JojrhqnTy-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="320" as="sourcePoint" />
+            <mxPoint x="310" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="150" y="300" />
+              <mxPoint x="737" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZtgmJ8ed2L3JojrhqnTy-41" value="report message" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="270" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZtgmJ8ed2L3JojrhqnTy-42" value="report message" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="140" width="90" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
