@@ -1,0 +1,58 @@
+<mxfile host="Electron" modified="2024-04-11T00:06:13.467Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.1.0 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="W7bQwTQt3OEYIk4heOjL" version="24.1.0" type="device">
+  <diagram name="Page-1" id="opSYaH2J1gWdcnBwjpQx">
+    <mxGraphModel dx="1195" dy="678" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QX6qnde6JWg4k-6KLHOT-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="QX6qnde6JWg4k-6KLHOT-1" target="QX6qnde6JWg4k-6KLHOT-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QX6qnde6JWg4k-6KLHOT-1" value="Belt" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="150" y="140" width="160" height="150.01" as="geometry" />
+        </mxCell>
+        <mxCell id="ZtgmJ8ed2L3JojrhqnTy-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QX6qnde6JWg4k-6KLHOT-2" target="ZtgmJ8ed2L3JojrhqnTy-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QX6qnde6JWg4k-6KLHOT-2" value="Crossbelt" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" parent="1" vertex="1">
+          <mxGeometry x="360" y="140" width="160" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="ZtgmJ8ed2L3JojrhqnTy-11" value="" style="group;aspect=fixed;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="170" y="160" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ZtgmJ8ed2L3JojrhqnTy-5" value="BeltController" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="ZtgmJ8ed2L3JojrhqnTy-11">
+          <mxGeometry width="119.99999999999999" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZtgmJ8ed2L3JojrhqnTy-9" value="BeltService" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="ZtgmJ8ed2L3JojrhqnTy-11">
+          <mxGeometry y="40" width="119.99999999999999" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZtgmJ8ed2L3JojrhqnTy-10" value="BeltRepository" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="ZtgmJ8ed2L3JojrhqnTy-11">
+          <mxGeometry y="80" width="119.99999999999999" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZtgmJ8ed2L3JojrhqnTy-12" value="" style="group;aspect=fixed;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="380" y="160" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ZtgmJ8ed2L3JojrhqnTy-13" value="CrossbeltController" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="ZtgmJ8ed2L3JojrhqnTy-12">
+          <mxGeometry width="119.99999999999999" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZtgmJ8ed2L3JojrhqnTy-14" value="CrossbeltService" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="ZtgmJ8ed2L3JojrhqnTy-12">
+          <mxGeometry y="40" width="119.99999999999999" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZtgmJ8ed2L3JojrhqnTy-1" value="Report" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="570" y="140" width="140" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="ZtgmJ8ed2L3JojrhqnTy-29" value="" style="group;aspect=fixed;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="580" y="160" width="130" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="ZtgmJ8ed2L3JojrhqnTy-30" value="ReportController" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="ZtgmJ8ed2L3JojrhqnTy-29">
+          <mxGeometry width="119.99999999999999" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZtgmJ8ed2L3JojrhqnTy-32" value="ReportRepository" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="ZtgmJ8ed2L3JojrhqnTy-29">
+          <mxGeometry y="80" width="119.99999999999999" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZtgmJ8ed2L3JojrhqnTy-15" value="ReportService" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="ZtgmJ8ed2L3JojrhqnTy-29">
+          <mxGeometry y="40" width="119.99999999999999" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
